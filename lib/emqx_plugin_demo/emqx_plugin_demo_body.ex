@@ -6,7 +6,7 @@ defmodule EmqxPluginDemo.Body do
   end
 
   def on_client_connected(returncode, client, env) do
-    IO.inspect(["elixir on_client_connected", client, returncode, env])
+    IO.inspect(["Roy's test: elixir on_client_connected", client, returncode, env])
     :ok
   end
 
