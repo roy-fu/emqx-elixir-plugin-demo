@@ -1,0 +1,13 @@
+%{
+  "cowboy": {:git, "https://github.com/emqx/cowboy", "3b6bdaf4f2e3c5b793a0c3cada2c3b74c3d5e885", [tag: "2.7.1"]},
+  "cowlib": {:git, "https://github.com/ninenines/cowlib", "c6553f8308a2ca5dcd69d845f0a7d098c40c3363", [tag: "2.8.0"]},
+  "cuttlefish": {:git, "https://github.com/emqx/cuttlefish", "c945f3f7eda02c1ac319776f5adc3781a1b0f9b6", [tag: "v3.0.0"]},
+  "ekka": {:git, "https://github.com/emqx/ekka", "ade5b0252029701899fd70bd388074a045d2898c", [tag: "0.7.2"]},
+  "esockd": {:git, "https://github.com/emqx/esockd", "7e0beab781643d5708db07373316d7ada293f4fc", [tag: "5.6.1"]},
+  "gen_rpc": {:git, "https://github.com/emqx/gen_rpc", "fe2dd1d92a2b666e40c77dde95711a2e9317082a", [tag: "2.4.1"]},
+  "getopt": {:git, "https://github.com/emqx/getopt.git", "215f2083408e1fe562d441aea6062bf5d9e1fb67", [tag: "v1.0.2"]},
+  "gproc": {:hex, :gproc, "0.8.0", "cea02c578589c61e5341fce149ea36ccef236cc2ecac8691fba408e7ea77ec2f", [:rebar3], [], "hexpm", "580adafa56463b75263ef5a5df4c86af321f68694e7786cb057fd805d1e2a7de"},
+  "jiffy": {:git, "https://github.com/emqx/jiffy", "bb28d324a24f787ac4ee8f8d16f02f102007c24b", [tag: "1.0.2"]},
+  "ranch": {:git, "https://github.com/ninenines/ranch", "3190aef88aea04d6dce8545fe9b4574288903f44", [tag: "1.7.1"]},
+  "ssl_verify_fun": {:git, "https://github.com/deadtrickster/ssl_verify_fun.erl.git", "c5718226b0b9f3d1a38ef6ca3c3b4c75f53dda92", [tag: "1.1.4"]},
+}
